@@ -14,6 +14,6 @@ resource "aws_s3_bucket" "eigth_bucket" {
   bucket = "my-tf-test-bucket-mab8"
 }
 
-resource "aws_s3_bucket" "ten_bucket" {
-  bucket = "my-tf-test-bucket-mab10"
+resource "aws_s3_bucket" "eleven_bucket" {
+  bucket = "my-tf-test-bucket-mab11"
 }
