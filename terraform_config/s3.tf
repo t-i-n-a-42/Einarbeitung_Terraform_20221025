@@ -1,19 +1,7 @@
-resource "aws_s3_bucket" "first_bucket" {
+resource "aws_s3_bucket" "first_bucket2" {
   bucket = "my-tf-test-bucket-mab1"
 }
 
-resource "aws_s3_bucket" "third_bucket" {
+resource "aws_s3_bucket" "third_bucket2" {
   bucket = "my-tf-test-bucket-mab3"
-}
-
-resource "aws_s3_bucket" "six_bucket" {
-  bucket = "my-tf-test-bucket-mab6"
-}
-
-resource "aws_s3_bucket" "eigth_bucket" {
-  bucket = "my-tf-test-bucket-mab8"
-}
-
-resource "aws_s3_bucket" "eleven_bucket" {
-  bucket = "my-tf-test-bucket-mab11"
 }
